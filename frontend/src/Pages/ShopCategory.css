@@ -10,10 +10,10 @@
     border: 1px solid rgb(177, 170, 170);
 }
 .subcategory-products{
-    margin: 57px 47px;
+    margin: 47px 47px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
    
 }
 /* .sub-category{

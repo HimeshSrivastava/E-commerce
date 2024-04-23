@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 // import Footer from '../Footer/Footer'
 const Item = (props) => {
   return (
-    <>
+    <div className='item-container'>
     <div className='item'>
       <Link to={`/product/${props.id}`}><img src={props.image} alt="" /></Link>
       <p>{props.name}</p>
@@ -19,7 +19,7 @@ const Item = (props) => {
      
     </div>
     {/* <Footer/> */}
-    </>
+    </div>
   )
 }
 

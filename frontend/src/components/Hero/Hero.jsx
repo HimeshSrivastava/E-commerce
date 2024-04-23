@@ -8,7 +8,7 @@ const Hero = () => {
        <h2>NEW ARRIVALS ONLY</h2>
        <div>
         <div className="hero-hand-icon">
-            <p>new</p>
+            <p>New</p>
             <img src="https://i.pinimg.com/originals/c8/2d/de/c82dde2e0b94cdb3fe7c9a56919ef154.gif" alt="hii" />
         </div>
         <p>Collections</p>

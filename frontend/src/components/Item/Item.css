@@ -1,19 +1,16 @@
 .item{
     
-    width: 463px;
-     margin: 63px;
+    width: 363px;
+     margin:50px 13px;
      padding: 12px;
       box-shadow: 0px 1px 3px 1px black;
-      /* display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      margin-top: 50px;
-      gap: 30px; */
+     
     p{
         margin: 6px 0px;
     }
     img{
-        width: 330px;
-        height: 350px;
+        width: 200px;
+        height: 300px;
     }
 }
 .item-prices{
@@ -34,4 +31,10 @@
 .item:hover{
     transform: scale(1.05);
     transition: 0.6s;
+}
+.item-container{
+        display: flex;
+      flex-direction: row;
+      margin: 10px 0px;
+      gap: 30px;
 }

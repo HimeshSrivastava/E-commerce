@@ -1,16 +1,15 @@
 const data =[
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹403.00",
+      
+      old_price: 403.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-10%",
       name: "Mamaearth Vitamin C Daily Glow Sunscreen SPF 50 PA+++ ",
       category: "women",
-      new_price: "₹449.00",
+      new_price: 449.00,
       "canAddToCart": false,
-      id: 3004,
+      id: 1,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -28,15 +27,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹379.00",
+      old_price: 379.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-5%",
       name: "Minimalist Sunscreen SPF 50 PA++++ | Clinically Tested in US (In-Vivo) ",
       category: "women",
-      new_price: "₹399.00",
+      new_price: 399.00,
       "canAddToCart": false,
-      id: 17839,
+      id: 2,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -62,15 +61,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹322.00",
+      old_price: 322.00,
      
       
       "formattedSellerDiscountPercentage": "-32%",
       name: "The Moms Co. Natural Vita Rich Under Eye Cream for Dark Circles for Women & Men enriched with Chia Seed Oil",
       category: "women",
-      new_price: "₹474.00",
+      new_price: 474.00,
       "canAddToCart": false,
-      id: 21799,
+      id: 3,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 3,
@@ -88,15 +87,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹419.00",
+      old_price: 419.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-16%",
       name: "Dermafique Advanced Repair Night Cream with Niacinamide – 30g",
       category: "women",
-      new_price: "₹499.00",
+      new_price: 499.00,
       "canAddToCart": false,
-      id: 28,
+      id: 4,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -114,15 +113,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹440.00",
+      old_price: 440.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-55%",
       name: "Dermafique Sun Defense All Matte, SPF 50, PA +++ Sunscreen 30g",
       category: "women",
-      new_price: "₹979.00",
+      new_price: 979.00,
       "canAddToCart": false,
-      id: 705,
+      id: 5,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -140,15 +139,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹402.00",
+      old_price: 402.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-55%",
       name: "Brillare 10% Vitamin C Serum, Bright & Glowing Skin with Probiotics",
       category: "women",
-      new_price: "₹895.00",
+      new_price: 895.00,
       "canAddToCart": false,
-      id: 462,
+      id: 6,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -166,15 +165,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹450.00",
+      old_price: 450.00,
         
       
       
       name: "Forest Essentials Facial Tonic Mist with Pure Rosewater ",
       category: "women",
-      new_price: null,
+      new_price: 500.0,
       "canAddToCart": false,
-      id: 97,
+      id: 7,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -192,15 +191,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹429.00",
+      old_price: 429.00,
      
       
                
       name: "The Face Shop Non-Sticky Transparent 3 in 1 Aloe Fresh Soothing gel for Skin",
       category: "men",
-      new_price: "₹490.00",
+      new_price: 490.00,
       "canAddToCart": false,
-      id: 4191,
+      id: 8,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -226,15 +225,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹394.00",
+      old_price: 394.00,
       "hasHalfStar": false,
       
                
       name: "Aqualogica Men & Women Radiance+ Dewy Sunscreen For All Skin Types",
       category: "men",
-      new_price: "₹449.00",
+      new_price: 449.00,
       "canAddToCart": false,
-      id: 6221,
+      id: 9,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -252,15 +251,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹350.00",
+      old_price: 350.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-10%",
       name: "Deconstruct 1% Squalane Moisturizer with 0.2% Hyaluronic acid ",
       category: "women",
-      new_price: "₹389.00",
+      new_price: 389.00,
       "canAddToCart": false,
-      id: 16,
+      id: 10,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -286,15 +285,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹395.00",
+      old_price: 395.00,
       "hasHalfStar": false,
       
       
       name: "Brillare Professional Skin Brightening/Lightening Face Wash",
       category: "women",
-      new_price: null,
+      new_price: 400,
       "canAddToCart": false,
-      id: 464,
+      id: 11,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -312,15 +311,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹420.00",
+      old_price: 420.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-15%",
       name: "Dot & Key Vitamin C + E Super Bright Under Eye Cream ",
       category: "men",
-      new_price: "₹495.00",
+      new_price: 495.00,
       "canAddToCart": false,
-      id: 97,
+      id: 12,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -346,15 +345,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹489.00",
+      old_price: 489.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-1%",
       name: "La Pink Strawberry Natural Tinted Lip Balm with Shea & Kokum Butter ",
       category: "women",
-      new_price: "₹495.00",
+      new_price: 495.00,
       "canAddToCart": false,
-      id: 0,
+      id: 13,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 0,
@@ -372,15 +371,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹351.00",
+      old_price: 351.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-11%",
       name: "Dot & Key Ceramides Moisturizer with Hyaluronic for Intense Moisturizing ",
       category: "women",
-      new_price: "₹395.00",
+      new_price: 395.00,
       "canAddToCart": false,
-      id: 3775,
+      id: 14,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -406,15 +405,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹268.00",
+      old_price: 268.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-10%",
       name: "The Derma Co 2% Niacinamide Gentle Skin Cleanser for Sensitive, Dry",
       category: "men",
-      new_price: "₹299.00",
+      new_price: 299.00,
       "canAddToCart": false,
-      id: 417,
+      id: 15,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -432,15 +431,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹375.00",
+      old_price: 375.00,
      
       
       "formattedSellerDiscountPercentage": "-6%",
       name: "Cetaphil Face Wash Gentle Skin Cleanser for Dry to Normal",
       category: "women",
-      new_price: "₹399.00",
+      new_price: 399.00,
       "canAddToCart": false,
-      id: 18343,
+      id: 16,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -458,15 +457,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹379.00",
+      old_price: 379.00,
       "hasHalfStar": false,
       
       "formattedSellerDiscountPercentage": "-5%",
       name: "Minimalist Pha 3% Alcohol Free Face Toner, 150 Ml | Pore Tightening ",
       category: "women",
-      new_price: "₹399.00",
+      new_price: 399.00,
       "canAddToCart": false,
-      id: 6602,
+      id: 17,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -492,15 +491,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹495.00",
+      old_price: 495.00,
       "hasHalfStar": false,
       
       
       name: "Brillare Rose Face Wash, Anti Ageing Skin, Sandalwood & Coconut Face Wash ",
       category: "men",
-      new_price: null,
+      new_price: 550.0,
       "canAddToCart": false,
-      id: 1104,
+      id: 18,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -518,15 +517,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹396.00",
+      old_price: 396.00,
      
       
       "formattedSellerDiscountPercentage": "-11%",
       name: "DOT & KEY Vitamin C + E Super Bright Sunscreen Spf ",
       category: "women",
-      new_price: "₹445.00",
+      new_price: 445.00,
       "canAddToCart": false,
-      id: 3052,
+      id: 19,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -552,15 +551,15 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹306.00",
+      old_price: 306.00,
       "hasHalfStar": false,
       
                
       name: "Mamaearth Rice Face Scrub for Glowing Skin, With Rice Water",
       category: "women",
-      new_price: "₹349.00",
+      new_price: 349.00,
       "canAddToCart": false,
-      id: 492,
+      id: 20,
       "formattedPrimePrice": null,
       "promotions": null,
       "starCount": 4,
@@ -586,352 +585,160 @@ const data =[
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: "₹323.00",
-     
+      old_price: 323.00,
+     image:"https://m.media-amazon.com/images/I/612pd0S4xmL._SL1500_.jpg",
       
       "formattedSellerDiscountPercentage": "-35%",
       name: "The Man Company Lip Care Combo with Lip Scrub ",
       category: "men",
-      new_price: "₹498.00",
+      new_price: 498.00,
       "canAddToCart": false,
-      id: 622,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 3,
-      "digitalProduct": false,
-      "ratingValue": 3.7,
-      "totalPercentageOff": null,
-      "outOfStock": false,
-      image: "https://images-na.ssl-images-amazon.com/images/I/41qgsE3kCqL.jpg",
-      "asin": "B09812KY1R",
-      "productLink": "/dp/B09812KY1R/ref=va_live_carousel",
-      "brand": "The Man Company",
-      "dealBadge": null,
-      "offerListingId": null
+      id: 21,
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹284.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-5%",
+      old_price: 284.00,
+      
       name: "Minimalist Gentle Face Wash With 6% Oat Extract ",
       category: "women",
-      new_price: "₹299.00",
-      "canAddToCart": false,
-      id: 1672,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.2,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 299.00,
+      
+      id: 22,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/41pPQww69WL.jpg",
-      "asin": "B09VPN4NTM",
-      "productLink": "/dp/B09VPN4NTM/ref=va_live_carousel",
-      "brand": "Minimalist",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "5% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+     
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹476.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-20%",
+      old_price: 476.00,
+      
       name: "Foxtale 15% Vitamin C Face Serum for Glowing Skin",
       category: "men",
-      new_price: "₹595.00",
+      new_price: 595.00,
       "canAddToCart": false,
-      id: 2164,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 3.9,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      id: 23,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/41rpYGP-GXL.jpg",
-      "asin": "B09RZPZCHS",
-      "productLink": "/dp/B09RZPZCHS/ref=va_live_carousel",
-      "brand": "FoxTale",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "20% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹387.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-14%",
+      old_price: 387.00,
+     
       name: "Dot & Key 10% Niacinamide + Cica Serum | Reduces Acne & Dark Spots ",
       category: "kid",
-      new_price: "₹450.00",
+      new_price: 450.00,
       "canAddToCart": false,
-      id: 328,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.1,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      id: 24,
+     
       image: "https://images-na.ssl-images-amazon.com/images/I/31dURf6mJqL.jpg",
-      "asin": "B0BJ77CVGY",
-      "productLink": "/dp/B0BJ77CVGY/ref=va_live_carousel",
-      "brand": "DOT & KEY",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "14% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹335.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-15%",
+      old_price: 335.00,
+      
       name: "Dot & Key Rice Water Hydrating Toner With Hyaluronic ",
       category: "women",
-      new_price: "₹395.00",
+      new_price: 395.00,
       "canAddToCart": false,
-      id: 381,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.1,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      id: 25,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/31duInhjBhL.jpg",
-      "asin": "B09RWQ54C5",
-      "productLink": "/dp/B09RWQ54C5/ref=va_live_carousel",
-      "brand": "DOT & KEY",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "15% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹395.00",
-      "hasHalfStar": false,
-      
+     
+      old_price: 395.00,
       
       name: "RE' EQUIL Oxybenzone and OMC Free Sunscreen For Oily",
       category: "kid",
-      new_price: null,
-      "canAddToCart": false,
-      id: 8225,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.1,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 435.0,
+      
+      id: 26,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/2134rIz8wxL.jpg",
-      "asin": "B07GKXDP8P",
-      "productLink": "/dp/B07GKXDP8P/ref=va_live_carousel",
-      "brand": "RE' EQUIL",
-      "dealBadge": null,
-      "offerListingId": null
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹306.00",
-      "hasHalfStar": false,
+     
+      old_price: 306.00,
+      
       
                
       name: "Mamaearth Charcoal Face Scrub for Oily ",
       category: "kid",
-      new_price: "₹349.00",
-      "canAddToCart": false,
-      id: 3379,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.1,
-      "totalPercentageOff": null,
-      "outOfStock": false,
-      image: "https://images-na.ssl-images-amazon.com/images/I/416NWXfnueL.jpg",
-      "asin": "B085NYMG6Z",
-      "productLink": "/dp/B085NYMG6Z/ref=va_live_carousel",
-      "brand": "Mamaearth",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "12% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+      new_price: 349.00,
+       image:"https://woooys.in/wp-content/uploads/2022/03/charcoal_face_scrub_1.jpg",
+      id: 27,
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹299.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-63%",
+      old_price: 299.00,
+      
       name: "Cerulean Moisturiser for Dry Skin 100gm Instant Hydration ",
       category: "women",
-      new_price: "₹799.00",
+      new_price: 799.00,
       "canAddToCart": false,
-      id: 51,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 3.9,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      id: 28,
+     
       image: "https://images-na.ssl-images-amazon.com/images/I/416DiIyV52L.jpg",
-      "asin": "B0BHZ6HRQ7",
-      "productLink": "/dp/B0BHZ6HRQ7/ref=va_live_carousel",
-      "brand": "Cerulean",
-      "dealBadge": null,
-      "offerListingId": null
+      
     },
     {
       "singularItem": false,
       "promotionType": null,
-      old_price: null,
+      old_price: 600,
       "hasHalfStar": false,
       
       
       name: "Kama Ayurveda Pure Rose, Pack of 50ml liquid",
       category: "kid",
-      new_price: null,
-      "canAddToCart": false,
-      id: 5860,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.2,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 700,
+      
+      id: 29,
+     
       image: "https://images-na.ssl-images-amazon.com/images/I/312OPT6eQKL.jpg",
-      "asin": "B01BGJ07GK",
-      "productLink": "/dp/B01BGJ07GK/ref=va_live_carousel",
-      "brand": "Kama Ayurveda",
-      "dealBadge": null,
-      "offerListingId": null
+      
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹284.00",
-      "hasHalfStar": false,
+     
+      old_price: 284.00,
       
-      "formattedSellerDiscountPercentage": "-5%",
       name: "Minimalist 2% Salicylic Acid Face Wash For Oily Skin | Sulphate free",
       category: "women",
-      new_price: "₹299.00",
-      "canAddToCart": false,
-      id: 13234,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.2,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 299.00,
+
+      id: 30,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/31fIPTLyP0L.jpg",
-      "asin": "B096PJMGPL",
-      "productLink": "/dp/B096PJMGPL/ref=va_live_carousel",
-      "brand": "Minimalist",
-      "dealBadge": {
-        "messageText": "Limited time deal",
-        "messageBackgroundColor": "ffffff",
-        "messageTimerEndTime": null,
-        "labelBackgroundColor": "CC0C39",
-        "labelText": "5% off",
-        "messageColor": "CC0C39",
-        "labelColor": "ffffff"
-      },
-      "offerListingId": null
+     
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹386.00",
-      "hasHalfStar": false,
       
-      "formattedSellerDiscountPercentage": "-8%",
+      old_price: 386.00,
+     
       name: "Plum 3% Niacinamide & Rice Water Face Toner | With Rice Ferment Extract ",
       category: "kid",
-      new_price: "₹420.00",
-      "canAddToCart": false,
-      id: 1334,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4.2,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 420.00,
+   
+      id: 31,
+     
       image: "https://images-na.ssl-images-amazon.com/images/I/31M2OhN9HBL.jpg",
       
     },
     {
-      "singularItem": false,
-      "promotionType": null,
-      old_price: "₹313.00",
-      "hasHalfStar": false,
+     
+      old_price: 313.00,
       
-      "formattedSellerDiscountPercentage": "-10%",
       name: "The Derma Co 10% Vitamin C Face Serum with Vitamin C",
       category: "kid",
-      new_price: "₹349.00",
-      "canAddToCart": false,
-      id: 8536,
-      "formattedPrimePrice": null,
-      "promotions": null,
-      "starCount": 4,
-      "digitalProduct": false,
-      "ratingValue": 4,
-      "totalPercentageOff": null,
-      "outOfStock": false,
+      new_price: 349.00,
+      
+      id: 32,
+      
       image: "https://images-na.ssl-images-amazon.com/images/I/31+dCaycMIL.jpg",
       
       },
