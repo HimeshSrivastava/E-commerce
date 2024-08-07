@@ -41,7 +41,6 @@ const ProductDisplay = (props) => {
 
      <div className='productdisplay-right-size'>
      
-     
         <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
         </div>
       </div>

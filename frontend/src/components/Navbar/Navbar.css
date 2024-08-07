@@ -29,11 +29,11 @@
     }
    
     button{
-        width: 157px;
-        height: 58px;
+        width: 137px;
+        height: 48px;
         outline: none;
         border: 1px solid black;
-        border-radius: 75px;
+        border-radius: 45px;
         color: gray;
         font-size: 20px;
         font-weight: 500;
@@ -50,21 +50,14 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 65px;
     color: gray;
     font-size: 20px;
     font-weight: 500;
-    li{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-         gap: 3px;
-         cursor: pointer;
-    }
+
     hr{
         border: none;
-        width: 80%;
+        width: 90%;
         height: 3px;
         border-radius: 10px;
         background: red;
@@ -83,4 +76,46 @@
     font-size: 14px;
     background-color: red;
     color: aliceblue;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     cursor: pointer;
+}
+.nav-menu{
+    font-size: 18px;
+
+}
+@media (max-width:400px) {
+    .nav-login-cart{
+        button{
+            width: 147px;
+            height: 48px;
+        }
+    }
+    .nav-menu{
+        gap: 68px;
+    font-size: 22px;
+    }
+
+}
+@media (max-width:299px) {
+    .nav-login-cart{
+        button{
+            width: 137px;
+            height: 38px;
+        }
+    }
+    .nav-menu{
+        gap: 58px;
+    font-size: 10px;
+    }
+    
 }

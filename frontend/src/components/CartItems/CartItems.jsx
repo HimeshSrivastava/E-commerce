@@ -5,6 +5,8 @@ import './CartItem.css'
 const CartItems = () => {
   const { TotalData, cartItems, removeFromCart,getTotalCartAmount } = useContext(ShopContext);
 
+  console.log(cartItems);
+
   const handleRemoveFromCart = (id) => {
     removeFromCart(id);
     

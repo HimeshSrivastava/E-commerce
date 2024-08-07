@@ -3,7 +3,6 @@
     width: 363px;
      margin:50px 13px;
      padding: 12px;
-      box-shadow: 0px 1px 3px 1px black;
      
     p{
         margin: 6px 0px;
@@ -12,6 +11,9 @@
         width: 200px;
         height: 300px;
     }
+}
+.item:hover{
+    box-shadow: 0px 1px 3px 1px black;
 }
 .item-prices{
     display: flex;
@@ -38,3 +40,21 @@
       margin: 10px 0px;
       gap: 30px;
 }
+@media(max-width:830px){
+    .item{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+      
+}
+@media (max-width:479px) {
+    .item-container{
+        margin: 0px 90px;
+       }
+}   
+@media (max-width:335px) {
+    .item-container{
+        margin: 0px 60px;
+       }
+}   
