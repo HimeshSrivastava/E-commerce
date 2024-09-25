@@ -20,7 +20,7 @@ const Hero = () => {
        </div>
       </div>
       <div className="hero-right">
-      <img src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/young-woman-shopping-isolated-on-white-background_HarwcTr4Fg_SB_PM.jpg" alt="" />
+      <img src="https://www.pngmart.com/files/15/Beautiful-Girl-Holding-Shopping-Bag-Transparent-PNG.png" alt="" />
       </div>
     </div>
   )

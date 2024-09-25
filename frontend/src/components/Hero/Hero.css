@@ -1,6 +1,7 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, pink ,grey ,60%);
+    /* background: linear-gradient(180deg, grey ,black ,60%); */
+    /* background-color: rgb(179, 175, 175); */
     display: flex;
 }
 .hero-left{
@@ -11,7 +12,7 @@
     gap: 20px;
     padding-left: 180px;
     line-height: 1.1;
-
+   
     h2{
         color: black;
         font-size: 26px;
