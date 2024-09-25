@@ -11,7 +11,7 @@ const ShopCategory = (props) => {
 
   return (
     <div className='sub-category'>
-     <img src="https://marketplace.canva.com/EAEz3SGaQYQ/1/0/1600w/canva-flash-sale-web-banner---kitchenware-LtIxYKxNS7w.jpg" className='Banner' alt="logo" />
+     <img src="https://img.freepik.com/free-photo/online-purchasing-payment-e-commerce-banking_53876-127604.jpg?size=626&ext=jpg" className='Banner' alt="logo" />
       <div className='subcategory-indexSort'> 
       <div className='subcategory-sort'>
          {/* sort by <img src="" alt="" /> */}

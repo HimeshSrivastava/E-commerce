@@ -4,7 +4,7 @@
     display: flex;
     gap: 400px;
     padding: 133px 50px;
-    width: 1213px;
+    width:max-content;
     height: 200px;
     margin-top:104px;
 }
@@ -15,7 +15,7 @@
 .foot-content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap:20px;
 }
 .foot1{
     display: flex;
@@ -35,7 +35,7 @@
         width: 58px;
     }
 }
-@media (min-width:1340px) {
+/* @media (min-width:1340px) {
     .foot{
         width:1540px;
     }
@@ -63,4 +63,4 @@
         gap:180px;
     }
 }   
-
+ */

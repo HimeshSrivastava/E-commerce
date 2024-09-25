@@ -18,7 +18,6 @@ export default function Navbar() {
         <li onClick={()=>{setMenu("kids")}}><Link to="/kids">Kids Product</Link>{menu==="kids"?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login"><button>login</button></Link>
         <Link to="/cart"><img src="https://www.logolynx.com/images/logolynx/b2/b23666d57f4e17102209423105dfc442.png" alt="" /></Link>
       </div>
         </div>
