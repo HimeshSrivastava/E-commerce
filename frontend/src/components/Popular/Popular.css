@@ -28,3 +28,14 @@
     gap: 30px;
     align-items: center;
 }
+
+@media(max-width:830px){
+    .popular-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+      .popular{
+        margin: 12px;
+      }
+}

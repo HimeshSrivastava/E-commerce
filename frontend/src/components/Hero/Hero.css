@@ -58,5 +58,25 @@
     img{
         width: 391px;
         height: 540px;
+        margin: 3px;
+    }
+}
+@media(max-width:830px){
+    .hero-left{
+       p{ font-size: 26px;
+        font-weight: 700;
+       }
+    }
+    .hero{
+       display: flex;
+       margin: 6px;
+       flex-direction: column;
+    }   
+    .hero-right{
+        img{
+            width: 391px;
+            height: 540px;
+            margin: 34px;
+        }
     }
 }
