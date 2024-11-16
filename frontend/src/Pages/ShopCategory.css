@@ -39,14 +39,14 @@ img.Banner {
     font-size: 29px;
   }
 }
-/* @media (max-width:498px) {
+@media (max-width:800px) {
    
     .subcategory-products{
-        margin: 47px 147px;
+        margin: 27px 27px;
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr;
         row-gap: 20px;
        margin: auto;
     }
    
-} */
+}

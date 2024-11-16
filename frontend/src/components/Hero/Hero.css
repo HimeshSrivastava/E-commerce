@@ -13,26 +13,28 @@
     padding-left: 180px;
     line-height: 1.1;
    
-    h2{
-        color: black;
-        font-size: 26px;
-        font-weight: 600;
-    }
+   
 
-    p{
-        color: black;
-        font-size: 100px;
-        font-weight: 700;
-    }
+}
+.hero-left p{
+    color: black;
+    font-size: 100px;
+    font-weight: 700;
+}
+.hero-left h2{
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .hero-hand-icon{
     display: flex;
     align-items: center;
     gap: 20px;
-    img{
-        width: 105px;
-    }
+    
+}
+.hero-hand-icon img{
+    width: 105px;
 }
 
 .hero-lastest-btn{
@@ -55,28 +57,91 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    img{
-        width: 391px;
-        height: 540px;
-        margin: 3px;
-    }
+  
+}
+.hero-right img{
+    width: 391px;
+    height: 540px;
+    margin: 3px;
 }
 @media(max-width:830px){
-    .hero-left{
-       p{ font-size: 26px;
+    .hero-left p{
+        font-size: 26px;
         font-weight: 700;
-       }
+       
     }
     .hero{
        display: flex;
        margin: 6px;
        flex-direction: column;
     }   
-    .hero-right{
-        img{
-            width: 391px;
-            height: 540px;
-            margin: 34px;
+   
+  .hero-right img{
+                width: 353px;
+                height: 412px;
+                margin: 5px;
+           
         }
+ .hero-left {
+            padding-left: 94px;
+    
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+        padding: 15px;
+    }
+
+    .hero-left {
+        padding: 0 20px;
+    }
+
+    .hero-left h2 {
+        font-size: 30px;
+    }
+
+    .hero-left p {
+        font-size: 22px;
+    }
+
+    .hero-hand-icon img {
+        width: 70px;
+    }
+
+    .hero-lastest-btn {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .hero-right img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-left h2 {
+        font-size: 24px;
+    }
+
+    .hero-left p {
+        font-size: 20px;
+    }
+
+    .hero-hand-icon img {
+        width: 60px;
+    }
+
+    .hero-lastest-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .hero-right img {
+        width: 408px;
     }
 }

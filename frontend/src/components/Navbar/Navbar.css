@@ -6,6 +6,7 @@
     background-color: rgb(245, 235, 235)
 }
 .nav-logo {
+    display: flex;
     align-items: center;
     gap: 10px;
   }
@@ -38,28 +39,26 @@
     display: flex;
     align-items: center;
     gap: 45px;
-
-    img{
-        height: 60px;
-        width: 80px;
-    }
-   
-    button{
-        width: 137px;
-        height: 48px;
-        outline: none;
-        border: 1px solid black;
-        border-radius: 45px;
-        color: gray;
-        font-size: 20px;
-        font-weight: 500;
-        background-color: aliceblue;
-        cursor: pointer;
-    }
+}
+.nav-login-cart button{
+    width: 130px;
+    height: 48px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 45px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.nav-login-cart img{
+    height: 60px;
+    width: 80px;
 }
 
 .nav-login-cart button:active{
-    background-color: rgba(229, 212, 212, 0.84);
+    background-color: rgba(141, 127, 127, 0.84);
 }
 
 .nav-menu{
@@ -109,29 +108,21 @@ li{
     font-size: 18px;
 
 }
-/* @media (max-width:400px) {
-    .nav-login-cart{
-        button{
-            width: 147px;
-            height: 48px;
-        }
-    }
-    .nav-menu{
-        gap: 68px;
-    font-size: 22px;
+
+@media(max-width:830px) {
+    .nav-logo {
+        display: none;
     }
 
+    .nav-login-cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-login-cart img {
+        height: 60px;
+        width: 80px;
+    }
 }
-@media (max-width:299px) {
-    .nav-login-cart{
-        button{
-            width: 137px;
-            height: 38px;
-        }
-    }
-    .nav-menu{
-        gap: 58px;
-    font-size: 10px;
-    }
-    
-} */
