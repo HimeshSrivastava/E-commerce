@@ -15,7 +15,7 @@ const Shop = () => {
   //   console.log(json1);
   // }
   return (
-    <div>
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10">
       <Hero/>
       <Popular/>
       {/* <Footer/> */}

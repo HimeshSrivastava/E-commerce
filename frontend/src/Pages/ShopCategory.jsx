@@ -30,7 +30,7 @@ const ShopCategory = (props) => {
         })
 
         }
-      </div>
+      </div >
       <Footer/>
     </div>
   )

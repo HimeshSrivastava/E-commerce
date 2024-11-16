@@ -39,7 +39,7 @@ img.Banner {
     font-size: 29px;
   }
 }
-@media (max-width:498px) {
+/* @media (max-width:498px) {
    
     .subcategory-products{
         margin: 47px 147px;
@@ -49,4 +49,4 @@ img.Banner {
        margin: auto;
     }
    
-}
+} */
