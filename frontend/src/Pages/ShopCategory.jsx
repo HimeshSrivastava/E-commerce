@@ -5,7 +5,7 @@ import Item from '../components/Item/Item'
 import Footer from '../components/Footer/Footer'
 
 const ShopCategory = (props) => {
-  const {TotalData} =useContext(ShopContext);
+  const {products} =useContext(ShopContext);
 
   
 
@@ -18,7 +18,7 @@ const ShopCategory = (props) => {
       </div>
       </div>
       <div className="subcategory-products">
-        {TotalData.map((item,i)=>{
+        {products.map((item,i)=>{
           if(props.category===item.category){
             return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
        

@@ -1,6 +1,5 @@
 const port = 4000;
 const express = require("express");
-const app = express();
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
@@ -9,9 +8,11 @@ const cors = require("cors");
 const os= require("os");
 const freememory= os.freemem()
 console.log(`${freememory/1024/1024/1024}`);
+const app = express();
 
 app.use(express.json());
-app.use(cors());
+// app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: "*" }));
 
 //Database connection with maongodb
 mongoose.connect(
@@ -42,12 +43,29 @@ const upload = multer({ storage: storage });
 //creating upload endpoint for images
 app.use("/images", express.static("upload/images"));
 
+
 app.post("/upload", upload.single("product"), (req, res) => {
   res.json({
     success: 1,
-    image_url: `http:localhost:${port}/images/${req.file.filename}`,
+    image_url: `http://localhost:${port}/images/${req.file.filename}`,
   });
 });
+
+const Loginuser=mongoose.model("Loginuser",{
+  name:{
+    type:String,
+    required:true,
+  },
+  email:{
+    type:String,
+    required:true,
+  },
+  password:{
+    type:Number,
+    required:true,
+
+  }
+})
 
 const Product=mongoose.model("Product",{
   id:{
@@ -76,6 +94,34 @@ const Product=mongoose.model("Product",{
   },
 
 })
+app.post("/addUser",async(req,res)=>{
+  
+const newuser =new Loginuser({
+  name:req.body.name,
+  email:req.body.email,
+  password:req.body.password,
+});
+
+
+
+await newuser.save();
+
+console.log("SAVED");
+return res.json(newuser);
+
+});
+
+app.post("/login",async(req,res)=>{
+ const email=req.body.email;
+  // password:req.body.password;
+  CheckEmail=await Loginuser.findOne({email});
+  if(CheckEmail){
+    res.json(CheckEmail);
+  }
+  else{
+    res.json("data not found");
+  }
+})
 
 app.post("/addproduct",async(req,res)=>{
 const products= await Product.find({});
@@ -89,6 +135,7 @@ let id;
     id=1;
   }
 
+
   const product =new Product({
     id:id,
     name:req.body.name,
@@ -98,7 +145,6 @@ let id;
     old_price:req.body.old_price,
   });
 
-  console.log(product);
   await product.save();
   console.log("SAVED");
   res.json({
@@ -106,10 +152,10 @@ let id;
     name:req.body.name,
   })
 })
-//creating api for deleting products
+
 app.post('/removeproduct',async(req,res)=>{
     await Product.findOneAndDelete({
-      id:req.body.id,
+      _id:req.body.id,
     });
     console.log("removed");
     res.json({

@@ -6,9 +6,18 @@ import Breadcrums from '../components/Breadcrums/Breadcrums';
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay';
 
 const Product = () => {
-  const { TotalData } = useContext(ShopContext);
+  const { products } = useContext(ShopContext);
   const { productId } = useParams();
-  const product = TotalData.find((e) => e.id === Number(productId));
+  const product = products.find((e) => e.id === Number(productId));
+
+  if (!product) {
+    return (
+      <div>
+        <h2>Product Not Found</h2>
+        <p>Sorry, the product you are looking for does not exist.</p>
+      </div>
+    );
+  }
 
   return (
     <div>

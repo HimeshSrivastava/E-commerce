@@ -1,7 +1,7 @@
 .hero{
     height: 100vh;
     /* background: linear-gradient(180deg, grey ,black ,60%); */
-    /* background-color: rgb(179, 175, 175); */
+    /* background-color: rgb(224, 204, 204); */
     display: flex;
 }
 .hero-left{
