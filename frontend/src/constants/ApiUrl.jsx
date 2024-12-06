@@ -1,1 +1,1 @@
-export const apiUrl="https://e-commerce-1-px4m.onrender.com";
+export const apiUrl="https://e-commerce-zq42.onrender.com";
