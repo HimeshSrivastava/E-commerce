@@ -13,6 +13,7 @@ const app = express();
 app.use(express.json());
 const allowedOrigins = [ 'https://e-commerce-admin-sn3i.onrender.com', 'https://e-commerce-new-t4rk.onrender.com', 'http://localhost:3000' ]; 
 app.use(cors({ origin: allowedOrigins }));
+app.use('/images', express.static(path.join(__dirname, 'uploads/images')));
 
 //Database connection with maongodb
 mongoose.connect(
