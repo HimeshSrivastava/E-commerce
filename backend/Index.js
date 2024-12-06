@@ -3,17 +3,19 @@ const express = require("express");
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const multer = require("multer");
-const path = require("path");
 const cors = require("cors");
 const os= require("os");
 const freememory= os.freemem()
 console.log(`${freememory/1024/1024/1024}`);
 const app = express();
+const fs = require('fs');
+const path = require('path');
 
+const directoryPath = path.join(__dirname, 'upload/images');
 app.use(express.json());
-const allowedOrigins = [ 'https://e-commerce-admin-sn3i.onrender.com', 'https://e-commerce-new-t4rk.onrender.com', 'http://localhost:3000' ]; 
+const allowedOrigins = [ 'https://e-commerce-admin-sn3i.onrender.com', 'https://e-commerce-new-t4rk.onrender.com', 'http://localhost:3000', 'http://localhost:5173' ]; 
 app.use(cors({ origin: allowedOrigins }));
-app.use('/images', express.static(path.join(__dirname, 'uploads/images')));
+app.use('/images', express.static(path.join(__dirname, 'upload/images')));
 
 //Database connection with maongodb
 mongoose.connect(
@@ -166,6 +168,16 @@ app.post('/removeproduct',async(req,res)=>{
 })
 
 app.get('/getall',async(req,res)=>{
+  fs.readdir(directoryPath, (err, files) => {
+    if (err) {
+        return console.error('Unable to scan directory:', err);
+    }
+
+    // Log each file name
+    files.forEach(file => {
+        console.log(file);
+    });
+});
 let po= await Product.find();
   console.log("All Data");
   res.json(
