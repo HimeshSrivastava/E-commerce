@@ -1,1 +1,1 @@
-export const API_URL="http://localhost:4000";
+export const API_URL="https://e-commerce-1-px4m.onrender.com";
