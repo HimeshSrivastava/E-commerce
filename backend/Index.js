@@ -11,7 +11,7 @@ console.log(`${freememory/1024/1024/1024}`);
 const app = express();
 
 app.use(express.json());
-const allowedOrigins = [ 'https://e-commerce-admin-sn3i.onrender.com', 'https://e-commerce-new-t4rk.onrender.com/', 'http://localhost:3000/' ]; 
+const allowedOrigins = [ 'https://e-commerce-admin-sn3i.onrender.com', 'https://e-commerce-new-t4rk.onrender.com', 'http://localhost:3000' ]; 
 app.use(cors({ origin: allowedOrigins }));
 
 //Database connection with maongodb
