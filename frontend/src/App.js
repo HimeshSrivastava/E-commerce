@@ -7,13 +7,14 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import LoginSingup from './Pages/LoginSingup'
-// import Footer from './components/Footer/Footer';
+
 
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+
       <Navbar/>
       <main>
       <Routes>
@@ -28,13 +29,6 @@ function App() {
           <Route path='/login' element={<LoginSingup/>}/>
       </Routes>
       </main>
-      
-      {/* {window.location.path !=='/'? <Footer/> : false} */}
-       
-        
-      {/* <footer>
-      <Footer/>
-      </footer> */}
      
       </BrowserRouter>
     </div>
