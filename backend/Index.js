@@ -10,6 +10,9 @@ console.log(`${freememory/1024/1024/1024}`);
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const directoryPath = path.join(__dirname, 'upload/images');
 app.use(express.json());
@@ -19,7 +22,7 @@ app.use('/images', express.static(path.join(__dirname, 'upload/images')));
 
 //Database connection with maongodb
 mongoose.connect(
-  "mongodb+srv://himeshsrivastava123:rk9RUCdC3aJsdqWA@cluster0.aqzjeb9.mongodb.net/E-commerence"
+  process.env.mongo_db_url
 );
 
 //api cration
@@ -103,14 +106,17 @@ const newuser =new Loginuser({
   name:req.body.name,
   email:req.body.email,
   password:req.body.password,
+  
 });
-
-
 
 await newuser.save();
 
+const token = jwt.sign({ id: newuser._id }, process.env.jwt_secret_key, {
+  expiresIn: '1h', // Token expiration time (1 hour)
+});
+
 console.log("SAVED");
-return res.json(newuser);
+return res.json({newuser,token});
 
 });
 
@@ -119,7 +125,8 @@ app.post("/login",async(req,res)=>{
   // password:req.body.password;
   CheckEmail=await Loginuser.findOne({email});
   if(CheckEmail){
-    res.json(CheckEmail);
+    const token=jwt.sign(process.env.jwt_secret_key);
+    res.json({CheckEmail,token});
   }
   else{
     res.json("data not found");

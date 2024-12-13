@@ -19,7 +19,7 @@ export default function Navbar() {
       </ul>
       <div className="nav-login-cart ">
         <Link to="/cart"><img src="https://www.logolynx.com/images/logolynx/b2/b23666d57f4e17102209423105dfc442.png" alt="" /></Link>
-        <Link to="/login"><button>Login</button></Link>
+        <Link to="/login"><button>login</button></Link>
       </div>
         </div>
     </div>

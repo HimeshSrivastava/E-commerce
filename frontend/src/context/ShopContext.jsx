@@ -32,7 +32,7 @@ const ShopContextProvider = (props) => {
          try {
           const result=await axios.get(`${apiUrl}/getall`);
           if(result?.data){
-            console.log(result.data);
+            // console.log(result.data);
             setCartItems(getDefaultCart(result.data.length));
             setProducts(result.data);
             setLoading(false);

@@ -22,6 +22,7 @@ const Loginsignup = () => {
       const response = await axios.post(`${apiUrl}/login`, { email, password });
       console.log(response.data);
       if (response.data) {
+        localStorage.setItem('auth-token',JSON.stringify(response.data));
         alert('Login successful');
       }
     } catch (err) {
@@ -44,6 +45,7 @@ const Loginsignup = () => {
       const response = await axios.post(`${apiUrl}/addUser`, { name, email, password });
       console.log(response.data);
       if (response.data) {
+        localStorage.setItem('auth-token',JSON.stringify(response.data));
         alert('Signup successful');
       }
     } catch (err) {
